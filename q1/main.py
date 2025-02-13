@@ -38,8 +38,8 @@ def verify(a, w):
 # b
 A = [[4,2,1],[2,5,3],[1,3,6]]
 W = [1,2,3]
-#verify(A, W) # correct
-#verify([[4,2,1],[2,1,3],[1,3,6]], W) # not positive definite
+verify(A, W) # correct
+verify([[4,2,1],[2,1,3],[1,3,6]], W) # not positive definite
 
 # c
 # len(var) must be even number.
